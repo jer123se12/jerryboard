@@ -2400,6 +2400,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -5057,6 +5139,50 @@
 			)
 		)
 	)
+	(global_label "COL9"
+		(shape input)
+		(at 133.35 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15d0c53c-1696-4ae2-8924-67d678df7b4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 133.35 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b0e0a90-1404-4005-afd7-7a216448618f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL10"
 		(shape input)
 		(at 259.08 20.32 90)
@@ -5114,6 +5240,28 @@
 		(uuid "2b34f0b8-ed80-42c0-9421-aa36acf9e6f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.0314 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 133.35 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cfd73c4-7d94-468d-bbba-0bee10a15ecf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.5966 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,6 +5513,28 @@
 			)
 		)
 	)
+	(global_label "COL10"
+		(shape input)
+		(at 133.35 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88dcd473-3e16-477e-a57f-3ca581a3c5bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.3828 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UD-"
 		(shape input)
 		(at 90.17 132.08 0)
@@ -5431,6 +5601,28 @@
 			)
 		)
 	)
+	(global_label "COL7"
+		(shape input)
+		(at 133.35 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a34820f2-4d40-488e-a459-4ca5f163e5d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL8"
 		(shape input)
 		(at 227.33 20.32 90)
@@ -5453,6 +5645,50 @@
 			)
 		)
 	)
+	(global_label "COL4"
+		(shape input)
+		(at 133.35 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a470aa84-93d9-4d47-9109-ce2d6ccfd94e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 133.35 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5b8048f-c3e9-43e6-917a-20a5325059d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SS"
 		(shape input)
 		(at 171.45 101.6 0)
@@ -5466,6 +5702,28 @@
 		(uuid "a822d3dc-eedc-4d8d-b3d5-1fd08bc3ad28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.8542 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 133.35 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9c06b11-6101-465f-aa49-6b5474ad7c62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.5966 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,6 +5777,94 @@
 			)
 		)
 	)
+	(global_label "COL1"
+		(shape input)
+		(at 133.35 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b70f23ff-b146-4e5a-9b61-800cd5b2229e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 133.35 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b71309d2-4b87-4b8b-b051-c958407fd2b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 133.35 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfb74a12-05cc-43e5-9f14-81fb0f6009a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 133.35 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c34b643f-31ff-4e38-8443-c4a59d2cf9b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1733 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL9"
 		(shape input)
 		(at 243.84 20.32 90)
@@ -5532,6 +5878,28 @@
 		(uuid "d5a69397-86f8-4e49-8d53-762a979b542f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 243.84 12.4967 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 157.48 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d921aff9-74cc-471d-81ce-8ec3c7067759")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3033 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,6 +5977,28 @@
 	)
 	(global_label "ROW2"
 		(shape input)
+		(at 133.35 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7ff9f55-8d4f-4939-9891-397de37fe9a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.5966 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
 		(at 110.49 49.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5625,6 +6015,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 133.35 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f906f1df-883b-423f-86b9-bd6ecaa3072d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.5966 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6482,7 +6894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Type-C:HRO-TYPE-C-31-M-13"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 187.96 123.19 0)
 			(effects
 				(font
@@ -7252,6 +7664,70 @@
 			(project "macropad"
 				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
 					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 151.13 185.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43b6112e-dfe7-484f-8960-b8da23759d46")
+		(property "Reference" "H1"
+			(at 153.67 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.67 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+			(at 151.13 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 151.13 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8808,6 +9284,70 @@
 			(project ""
 				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
 					(reference "#PWR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 151.13 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67a09bc3-a12d-48d5-b455-ca19bc2a8711")
+		(property "Reference" "H5"
+			(at 153.67 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.67 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -10897,6 +11437,70 @@
 			(project ""
 				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 151.13 173.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96a8ea68-6322-4238-a9bf-d2885d3f74e9")
+		(property "Reference" "H4"
+			(at 153.67 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.67 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+			(at 151.13 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 151.13 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14007,6 +14611,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 151.13 179.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef672fbe-6006-4721-8b91-fea0d7214b33")
+		(property "Reference" "H3"
+			(at 153.67 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.67 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+			(at 151.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 151.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 113.03 0)
 		(unit 1)
@@ -14201,6 +14869,70 @@
 			(project ""
 				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
 					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 151.13 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b7215a-3b21-4d81-807f-8e95f12e9fd4")
+		(property "Reference" "H2"
+			(at 153.67 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.67 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+			(at 151.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 151.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "macropad"
+				(path "/57b68e99-04da-4ae1-96ef-3ce88ed9109f"
+					(reference "H2")
 					(unit 1)
 				)
 			)
