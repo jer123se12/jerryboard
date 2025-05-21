@@ -1,0 +1,15 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"SW7,SW28,SW5,SW39,SW27,SW32,SW25,SW37,SW9,SW16,SW10,SW14,SW33,SW38,SW8,SW31,SW19,SW17,SW11,SW20,SW13,SW30,SW2,SW4,SW21,SW12,SW3,SW34,SW6,SW26,SW35,SW15,SW29,SW40,SW36,SW23,SW1,SW22,SW24,SW18";"SW_Cherry_MX_1.00u_PCB";40;"SW_SPST";;;
+2;"SW41";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"SW_Push";;;
+3;"J2";"IDC-Header_2x03_P2.54mm_Vertical";1;"AVR-ISP-6";;;
+4;"R5,R6";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"5.1kR";;;
+5;"R3,R2";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"22";;;
+6;"J1";"USB_C_Receptacle_HRO_TYPE-C-31-M-12";1;"USB_C_Receptacle_USB2.0_14P";;;
+7;"D6,D2,D40,D14,D8,D28,D37,D29,D13,D25,D32,D20,D15,D38,D17,D3,D35,D19,D23,D12,D34,D21,D39,D4,D1,D31,D22,D7,D30,D26,D24,D36,D16,D11,D9,D33,D10,D5,D27,D18";"D_SOD-123";40;"D_Small";;;
+8;"C3,C2,C4";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";3;"0.1uF";;;
+9;"C5";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"10uF";;;
+10;"C6,C7";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"22pF";;;
+11;"R1,R4";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"10k";;;
+12;"U1";"TQFP-44_10x10mm_P0.8mm";1;"ATmega32U4-A";;;
+13;"C1";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"1uF";;;
+14;"Y1";"Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering";1;"Crystal_GND24_Small";;;
